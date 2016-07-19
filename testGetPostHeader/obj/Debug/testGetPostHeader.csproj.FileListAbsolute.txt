@@ -1,0 +1,16 @@
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.csprojResolveAssemblyReference.cache
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.Form1.resources
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.Properties.Resources.resources
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.csproj.GenerateResource.Cache
+D:\my\net\testGetPostHeader\testGetPostHeader\bin\Debug\testGetPostHeader.exe
+D:\my\net\testGetPostHeader\testGetPostHeader\bin\Debug\testGetPostHeader.pdb
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.exe
+D:\my\net\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.pdb
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.exe
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.pdb
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\bin\Debug\testGetPostHeader.exe
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\bin\Debug\testGetPostHeader.pdb
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.csprojResolveAssemblyReference.cache
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.Form1.resources
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.Properties.Resources.resources
+C:\admindisk\工作室\C#\PC\testGetPostHeader\git\testGetPostHeader\testGetPostHeader\obj\Debug\testGetPostHeader.csproj.GenerateResource.Cache

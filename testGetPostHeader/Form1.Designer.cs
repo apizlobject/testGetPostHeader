@@ -36,9 +36,13 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBoxRx = new System.Windows.Forms.TextBox();
+            this.textBoxTx = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBoxCookies = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // goButton
@@ -49,6 +53,7 @@
             this.goButton.TabIndex = 0;
             this.goButton.Text = "GO";
             this.goButton.UseVisualStyleBackColor = true;
+            this.goButton.Click += new System.EventHandler(this.goButton_Click);
             // 
             // textBoxUrl
             // 
@@ -56,6 +61,7 @@
             this.textBoxUrl.Name = "textBoxUrl";
             this.textBoxUrl.Size = new System.Drawing.Size(506, 21);
             this.textBoxUrl.TabIndex = 1;
+            this.textBoxUrl.Text = "http://www.apizl.com/dev/";
             // 
             // comboBoxType
             // 
@@ -79,42 +85,64 @@
             // 
             // textBoxContent
             // 
-            this.textBoxContent.Location = new System.Drawing.Point(3, 37);
+            this.textBoxContent.Location = new System.Drawing.Point(6, 6);
             this.textBoxContent.Multiline = true;
             this.textBoxContent.Name = "textBoxContent";
-            this.textBoxContent.Size = new System.Drawing.Size(676, 186);
+            this.textBoxContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxContent.Size = new System.Drawing.Size(676, 225);
             this.textBoxContent.TabIndex = 4;
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(21, 165);
+            this.tabControl1.Location = new System.Drawing.Point(12, 165);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(696, 255);
+            this.tabControl1.Size = new System.Drawing.Size(705, 326);
             this.tabControl1.TabIndex = 5;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.textBoxCookies);
             this.tabPage1.Controls.Add(this.textBoxContent);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(688, 229);
+            this.tabPage1.Size = new System.Drawing.Size(697, 300);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "数据";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.textBoxRx);
+            this.tabPage2.Controls.Add(this.textBoxTx);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 74);
+            this.tabPage2.Size = new System.Drawing.Size(697, 300);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "报文";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // textBoxRx
+            // 
+            this.textBoxRx.Location = new System.Drawing.Point(352, 26);
+            this.textBoxRx.Multiline = true;
+            this.textBoxRx.Name = "textBoxRx";
+            this.textBoxRx.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxRx.Size = new System.Drawing.Size(330, 242);
+            this.textBoxRx.TabIndex = 0;
+            // 
+            // textBoxTx
+            // 
+            this.textBoxTx.Location = new System.Drawing.Point(6, 26);
+            this.textBoxTx.Multiline = true;
+            this.textBoxTx.Name = "textBoxTx";
+            this.textBoxTx.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBoxTx.Size = new System.Drawing.Size(314, 242);
+            this.textBoxTx.TabIndex = 0;
             // 
             // label1
             // 
@@ -125,22 +153,35 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "URL:";
             // 
+            // textBoxCookies
+            // 
+            this.textBoxCookies.Location = new System.Drawing.Point(9, 237);
+            this.textBoxCookies.Multiline = true;
+            this.textBoxCookies.Name = "textBoxCookies";
+            this.textBoxCookies.Size = new System.Drawing.Size(673, 57);
+            this.textBoxCookies.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 432);
+            this.ClientSize = new System.Drawing.Size(743, 503);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.textBoxData);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.textBoxUrl);
             this.Controls.Add(this.goButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "testGetPostHeader";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,6 +198,9 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBoxRx;
+        private System.Windows.Forms.TextBox textBoxTx;
+        private System.Windows.Forms.TextBox textBoxCookies;
     }
 }
 
